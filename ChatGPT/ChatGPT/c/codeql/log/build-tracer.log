@@ -1,0 +1,206 @@
+[T 06:02:51 8644] CodeQL CLI version 2.16.3
+[T 06:02:51 8644] Initializing tracer.
+[T 06:02:51 8644] Initializing tags.
+[T 06:02:51 8644] ID set to 00000000000021C4_0000000000000001 (parent root)
+[T 06:02:51 8644] Initializing tracer.
+[T 06:02:51 8644] Initializing tags.
+[T 06:02:51 8644] ID set to 00000000000021C4_0000000000000002 (parent root)
+[T 06:02:51 8644] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 06:02:51 8644] ==== Candidate to intercept: /usr/local/bin/codeql/tools/linux64/runner-linux (canonical: /usr/local/bin/codeql/tools/linux64/runner-linux) ====
+[T 06:02:51 8644] Executing the following tracer actions:
+[T 06:02:51 8644] Tracer actions:
+[T 06:02:51 8644] pre_invocations(0)
+[T 06:02:51 8644] post_invocations(0)
+[T 06:02:51 8644] trace_languages(1): [cpp]
+[T 06:02:51 8644] Initializing tracer.
+[T 06:02:51 8644] Initializing tags.
+[T 06:02:51 8644] ID set to 00000000000021C4_0000000000000003 (parent 00000000000021C4_0000000000000002)
+[T 06:02:51 8644] ==== Candidate to intercept: /usr/local/bin/codeql/cpp/tools/autobuild.sh (canonical: /usr/local/bin/codeql/cpp/tools/autobuild.sh) ====
+[T 06:02:51 8644] Executing the following tracer actions:
+[T 06:02:51 8644] Tracer actions:
+[T 06:02:51 8644] pre_invocations(0)
+[T 06:02:51 8644] post_invocations(0)
+[T 06:02:51 8644] trace_languages(1): [cpp]
+[T 06:02:51 8647] Initializing tracer.
+[T 06:02:51 8647] Initializing tags.
+[T 06:02:51 8647] ID set to 00000000000021C7_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:51 8647] ==== Candidate to intercept: /usr/bin/mktemp (canonical: /usr/bin/mktemp) ====
+[T 06:02:51 8647] Executing the following tracer actions:
+[T 06:02:51 8647] Tracer actions:
+[T 06:02:51 8647] pre_invocations(0)
+[T 06:02:51 8647] post_invocations(0)
+[T 06:02:51 8647] trace_languages(1): [cpp]
+[T 06:02:51 8649] Initializing tracer.
+[T 06:02:51 8649] Initializing tags.
+[T 06:02:51 8649] ID set to 00000000000021C9_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:51 8649] ==== Candidate to intercept: /usr/bin/mkdir (canonical: /usr/bin/mkdir) ====
+[T 06:02:51 8649] Executing the following tracer actions:
+[T 06:02:51 8649] Tracer actions:
+[T 06:02:51 8649] pre_invocations(0)
+[T 06:02:51 8649] post_invocations(0)
+[T 06:02:51 8649] trace_languages(1): [cpp]
+[T 06:02:51 8652] Initializing tracer.
+[T 06:02:51 8652] Initializing tags.
+[T 06:02:51 8652] ID set to 00000000000021CC_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:51 8652] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:51 8652] Executing the following tracer actions:
+[T 06:02:51 8652] Tracer actions:
+[T 06:02:51 8652] pre_invocations(0)
+[T 06:02:51 8652] post_invocations(0)
+[T 06:02:51 8652] trace_languages(1): [cpp]
+[T 06:02:51 8654] Initializing tracer.
+[T 06:02:51 8654] Initializing tags.
+[T 06:02:51 8654] ID set to 00000000000021CE_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:51 8654] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:51 8654] Executing the following tracer actions:
+[T 06:02:51 8654] Tracer actions:
+[T 06:02:51 8654] pre_invocations(0)
+[T 06:02:51 8654] post_invocations(0)
+[T 06:02:51 8654] trace_languages(1): [cpp]
+[T 06:02:51 8656] Initializing tracer.
+[T 06:02:51 8656] Initializing tags.
+[T 06:02:51 8656] ID set to 00000000000021D0_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:51 8656] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:51 8656] Executing the following tracer actions:
+[T 06:02:51 8656] Tracer actions:
+[T 06:02:51 8656] pre_invocations(0)
+[T 06:02:51 8656] post_invocations(0)
+[T 06:02:51 8656] trace_languages(1): [cpp]
+[T 06:02:52 8658] Initializing tracer.
+[T 06:02:52 8658] Initializing tags.
+[T 06:02:52 8658] ID set to 00000000000021D2_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8658] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:52 8658] Executing the following tracer actions:
+[T 06:02:52 8658] Tracer actions:
+[T 06:02:52 8658] pre_invocations(0)
+[T 06:02:52 8658] post_invocations(0)
+[T 06:02:52 8658] trace_languages(1): [cpp]
+[T 06:02:52 8660] Initializing tracer.
+[T 06:02:52 8660] Initializing tags.
+[T 06:02:52 8660] ID set to 00000000000021D4_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8660] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:52 8660] Executing the following tracer actions:
+[T 06:02:52 8660] Tracer actions:
+[T 06:02:52 8660] pre_invocations(0)
+[T 06:02:52 8660] post_invocations(0)
+[T 06:02:52 8660] trace_languages(1): [cpp]
+[T 06:02:52 8662] Initializing tracer.
+[T 06:02:52 8662] Initializing tags.
+[T 06:02:52 8662] ID set to 00000000000021D6_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8662] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:52 8662] Executing the following tracer actions:
+[T 06:02:52 8662] Tracer actions:
+[T 06:02:52 8662] pre_invocations(0)
+[T 06:02:52 8662] post_invocations(0)
+[T 06:02:52 8662] trace_languages(1): [cpp]
+[T 06:02:52 8664] Initializing tracer.
+[T 06:02:52 8664] Initializing tags.
+[T 06:02:52 8664] ID set to 00000000000021D8_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8664] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:52 8664] Executing the following tracer actions:
+[T 06:02:52 8664] Tracer actions:
+[T 06:02:52 8664] pre_invocations(0)
+[T 06:02:52 8664] post_invocations(0)
+[T 06:02:52 8664] trace_languages(1): [cpp]
+[T 06:02:52 8666] Initializing tracer.
+[T 06:02:52 8666] Initializing tags.
+[T 06:02:52 8666] ID set to 00000000000021DA_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8666] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which.debianutils) ====
+[T 06:02:52 8666] Executing the following tracer actions:
+[T 06:02:52 8666] Tracer actions:
+[T 06:02:52 8666] pre_invocations(0)
+[T 06:02:52 8666] post_invocations(0)
+[T 06:02:52 8666] trace_languages(1): [cpp]
+[T 06:02:52 8667] Initializing tracer.
+[T 06:02:52 8667] Initializing tags.
+[T 06:02:52 8667] ID set to 00000000000021DB_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8667] ==== Candidate to intercept: /usr/local/bin/codeql/cpp/tools/do-prebuild (canonical: /usr/local/bin/codeql/cpp/tools/do-prebuild) ====
+[T 06:02:52 8667] Lua: === Intercepted call to /usr/local/bin/codeql/cpp/tools/do-prebuild ===
+[T 06:02:52 8667] Lua: Disabling tracing for language cpp.
+[T 06:02:52 8667] Executing the following tracer actions:
+[T 06:02:52 8667] Tracer actions:
+[T 06:02:52 8667] pre_invocations(0)
+[T 06:02:52 8667] post_invocations(0)
+[T 06:02:52 8667] trace_languages(0): []
+[T 06:02:52 8667] Disabling tracing for this command.
+[T 06:02:52 8693] Initializing tracer.
+[T 06:02:52 8693] Initializing tags.
+[T 06:02:52 8693] ID set to 00000000000021F5_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8693] ==== Candidate to intercept: /usr/local/bin/codeql/cpp/tools/do-build (canonical: /usr/local/bin/codeql/cpp/tools/do-build) ====
+[T 06:02:52 8693] Executing the following tracer actions:
+[T 06:02:52 8693] Tracer actions:
+[T 06:02:52 8693] pre_invocations(0)
+[T 06:02:52 8693] post_invocations(0)
+[T 06:02:52 8693] trace_languages(1): [cpp]
+[T 06:02:52 8694] Initializing tracer.
+[T 06:02:52 8694] Initializing tags.
+[T 06:02:52 8694] ID set to 00000000000021F6_0000000000000001 (parent 00000000000021F5_0000000000000001)
+[T 06:02:52 8694] ==== Candidate to intercept: /usr/bin/readlink (canonical: /usr/bin/readlink) ====
+[T 06:02:52 8694] Executing the following tracer actions:
+[T 06:02:52 8694] Tracer actions:
+[T 06:02:52 8694] pre_invocations(0)
+[T 06:02:52 8694] post_invocations(0)
+[T 06:02:52 8694] trace_languages(1): [cpp]
+[T 06:02:52 8696] Initializing tracer.
+[T 06:02:52 8696] Initializing tags.
+[T 06:02:52 8696] ID set to 00000000000021F8_0000000000000001 (parent 00000000000021F5_0000000000000001)
+[T 06:02:52 8696] ==== Candidate to intercept: /usr/bin/find (canonical: /usr/bin/find) ====
+[T 06:02:52 8696] Executing the following tracer actions:
+[T 06:02:52 8696] Tracer actions:
+[T 06:02:52 8696] pre_invocations(0)
+[T 06:02:52 8696] post_invocations(0)
+[T 06:02:52 8696] trace_languages(1): [cpp]
+[T 06:02:52 8697] Initializing tracer.
+[T 06:02:52 8697] Initializing tags.
+[T 06:02:52 8697] ID set to 00000000000021F9_0000000000000001 (parent 00000000000021F5_0000000000000001)
+[T 06:02:52 8697] ==== Candidate to intercept: /usr/bin/head (canonical: /usr/bin/head) ====
+[T 06:02:52 8697] Executing the following tracer actions:
+[T 06:02:52 8697] Tracer actions:
+[T 06:02:52 8697] pre_invocations(0)
+[T 06:02:52 8697] post_invocations(0)
+[T 06:02:52 8697] trace_languages(1): [cpp]
+[T 06:02:52 8698] Initializing tracer.
+[T 06:02:52 8698] Initializing tags.
+[T 06:02:52 8698] ID set to 00000000000021FA_0000000000000001 (parent 00000000000021F5_0000000000000001)
+[T 06:02:52 8698] ==== Candidate to intercept: /usr/local/bin/codeql/cpp/tools/diagnostics/emit.sh (canonical: /usr/local/bin/codeql/cpp/tools/diagnostics/emit.sh) ====
+[T 06:02:52 8698] Executing the following tracer actions:
+[T 06:02:52 8698] Tracer actions:
+[T 06:02:52 8698] pre_invocations(0)
+[T 06:02:52 8698] post_invocations(0)
+[T 06:02:52 8698] trace_languages(1): [cpp]
+[T 06:02:52 8699] Initializing tracer.
+[T 06:02:52 8699] Initializing tags.
+[T 06:02:52 8699] ID set to 00000000000021FB_0000000000000001 (parent 00000000000021FA_0000000000000001)
+[T 06:02:52 8699] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 06:02:52 8699] Executing the following tracer actions:
+[T 06:02:52 8699] Tracer actions:
+[T 06:02:52 8699] pre_invocations(0)
+[T 06:02:52 8699] post_invocations(0)
+[T 06:02:52 8699] trace_languages(1): [cpp]
+[T 06:02:52 8700] Initializing tracer.
+[T 06:02:52 8700] Initializing tags.
+[T 06:02:52 8700] ID set to 00000000000021FC_0000000000000001 (parent 00000000000021FA_0000000000000001)
+[T 06:02:52 8700] ==== Candidate to intercept: /usr/bin/mkdir (canonical: /usr/bin/mkdir) ====
+[T 06:02:52 8700] Executing the following tracer actions:
+[T 06:02:52 8700] Tracer actions:
+[T 06:02:52 8700] pre_invocations(0)
+[T 06:02:52 8700] post_invocations(0)
+[T 06:02:52 8700] trace_languages(1): [cpp]
+[T 06:02:52 8701] Initializing tracer.
+[T 06:02:52 8701] Initializing tags.
+[T 06:02:52 8701] ID set to 00000000000021FD_0000000000000001 (parent 00000000000021FA_0000000000000001)
+[T 06:02:52 8701] ==== Candidate to intercept: /usr/bin/date (canonical: /usr/bin/date) ====
+[T 06:02:52 8701] Executing the following tracer actions:
+[T 06:02:52 8701] Tracer actions:
+[T 06:02:52 8701] pre_invocations(0)
+[T 06:02:52 8701] post_invocations(0)
+[T 06:02:52 8701] trace_languages(1): [cpp]
+[T 06:02:52 8703] Initializing tracer.
+[T 06:02:52 8703] Initializing tags.
+[T 06:02:52 8703] ID set to 00000000000021FF_0000000000000001 (parent 00000000000021C4_0000000000000003)
+[T 06:02:52 8703] ==== Candidate to intercept: /usr/bin/rm (canonical: /usr/bin/rm) ====
+[T 06:02:52 8703] Executing the following tracer actions:
+[T 06:02:52 8703] Tracer actions:
+[T 06:02:52 8703] pre_invocations(0)
+[T 06:02:52 8703] post_invocations(0)
+[T 06:02:52 8703] trace_languages(1): [cpp]

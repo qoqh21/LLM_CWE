@@ -1,0 +1,39 @@
+---
+sourceLocationPrefix: /home/test/Desktop/cwe/ChatGPT/ChatGPT/c
+baselineLinesOfCode: 392
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+inProgress:
+  primaryLanguage: cpp
+  installedExtractors:
+    ruby:
+     - /usr/local/bin/codeql/ruby
+    yaml:
+     - /usr/local/bin/codeql/yaml
+    properties:
+     - /usr/local/bin/codeql/properties
+    java:
+     - /usr/local/bin/codeql/java
+    html:
+     - /usr/local/bin/codeql/html
+    swift:
+     - /usr/local/bin/codeql/swift
+    python:
+     - /usr/local/bin/codeql/python
+    xml:
+     - /usr/local/bin/codeql/xml
+    go:
+     - /usr/local/bin/codeql/go
+    csv:
+     - /usr/local/bin/codeql/csv
+    javascript:
+     - /usr/local/bin/codeql/javascript
+    csharp:
+     - /usr/local/bin/codeql/csharp
+    cpp:
+     - /usr/local/bin/codeql/cpp
+creationMetadata:
+  cliVersion: 2.16.3
+  creationTime: 2024-03-08T06:02:51.371021431Z
+finalised: false
